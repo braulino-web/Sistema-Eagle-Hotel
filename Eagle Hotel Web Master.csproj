@@ -111,6 +111,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="DAO\Connectors\AccessConnector.cs" />
+    <Compile Include="DAO\Connectors\BaseConnector.cs" />
+    <Compile Include="DAO\Connectors\MySQLConnector.cs" />
+    <Compile Include="DAO\Connectors\SqlServerConnector.cs" />
+    <Compile Include="DAO\DAO.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
