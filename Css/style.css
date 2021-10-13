@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@400;600;700&display=swap');
+
+body, .sans{
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    font-family: 'Lora', serif;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.marrom{
+    color: #6C5A49;
+}
+
+.nav-link:hover{
+    transform: scale(1.2);
+    transition: all .3s;
+}
+
+.nav-link{
+    color: rgb(25, 80, 163) !important;
+}
+
+.quartos{
+    background-color: #161B33;
+}
+
+.quartos hr{
+    height: 2px;
+    color: #988F2A;
+    background-color: #988F2A;
+    width: 45px;
+}
+
+.quartos img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+}
+
+.dif-icon{
+    font-size: 70px;
+}   
+
+.owl-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.contador{
+    background-color: #161B33;
+}
+
+.sub-contador{
+    color: #FAC05E  ;
+}
+
+.btn-primary{
+    box-shadow: 2px 4px 9px rgb(0 0 0 / 20%);
+}
+
+
+.copyright{
+   background:#151B41;
+}
+
+.input-group-append{
+    margin-right:-5px;
+    z-index:10;
+}
+.input-group-text {
+    border: none;
+    background-color: #161B33;
+    color: white;
+}
+
+.form-control:focus{
+    box-shadow:none;
+
+}
+
+.login {
+    background:#161B33;
+}
+
+.login-form{
+    height: 400px;
+    width: 350px;
+
+}
+/* FORMAT ICON INPUTS*/
+
+
+
