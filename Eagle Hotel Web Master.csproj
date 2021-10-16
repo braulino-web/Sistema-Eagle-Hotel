@@ -103,6 +103,7 @@
     <Content Include="assets\suite.jpg" />
     <Content Include="assets\suite2.jpg" />
     <Content Include="Css\style.css" />
+    <Content Include="Dashboard.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
     <Content Include="Javascript\main.js" />
@@ -111,11 +112,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="DAO\Connectors\AccessConnector.cs" />
-    <Compile Include="DAO\Connectors\BaseConnector.cs" />
-    <Compile Include="DAO\Connectors\MySQLConnector.cs" />
-    <Compile Include="DAO\Connectors\SqlServerConnector.cs" />
-    <Compile Include="DAO\DAO.cs" />
+    <Compile Include="Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Function.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
